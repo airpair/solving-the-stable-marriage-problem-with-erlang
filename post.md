@@ -199,7 +199,7 @@ code_change(_OldVsn, State, _Extra) -> {ok, State}.
 
 
 
-Notice that I've taken the approach of "letting them run until they're quiet" here, with anidle timeout of 100ms - i.e. if no man has reported a new match or a broken match, then all marriages have stablized.
+Notice that I've taken the approach of "letting them run until they're quiet" here, with an idle timeout of 100ms - i.e. if no man has reported a new match or a broken match, then all marriages have stablized.
 
 The dataset is taken from [Rosetta Code](http://rosettacode.org/wiki/Stable_marriage_problem), and running this experiment yields the following results:
 
