@@ -22,7 +22,7 @@ Remember though, a synchronous call in the Erlang OTP-sense is not the same as a
 In this case the communication still happens via asynchronous message passing, but the calling process asynchronously waits for a reply before moving on.
 
 From here, the implementation itself is pretty straight forward.
-First, for the `man` module, which models the behvaiour of a man in the experiment.
+First, for the `man` module, which models the behaviour of a man in the experiment.
 
 ```erlang
 -module(man).
